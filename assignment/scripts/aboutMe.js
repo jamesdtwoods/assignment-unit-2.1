@@ -60,7 +60,7 @@ console.log(result);
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
 let diceRoll = 'Try again later.';
-if ( luckyNumber = 2 && adventurous ) {
+if ( luckyNumber === 2 && adventurous ) {
   diceRoll = 'Roll the dice!';
 };
 console.log(diceRoll);
@@ -126,8 +126,6 @@ function getResult(result) {
   return result ? 'Adventures are great!' : 'How about we stay home?';
 };
 console.log(result);
-
-
 
 
 
